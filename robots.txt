@@ -1,0 +1,8 @@
+User-agent: *
+Allow: /
+
+# Host
+Host: https://hellstar-stores-parasite.vercel.app/
+
+# Sitemap Location (Replace with your actual live Vercel domain once deployed)
+Sitemap: https://hellstar-stores-parasite.vercel.app/sitemap.xml

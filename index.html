@@ -1,0 +1,776 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Official Hellstar Stores | Premium Streetwear Hoodies, Shirts & Tracksuits</title>
+  <meta name="description" content="Shop authentic Hellstar streetwear including the legendary Hellstar Hoodie, graphic shirts, tracksuits, and pants. Enjoy worldwide shipping and premium quality cotton drops.">
+  <link rel="canonical" href="https://hellstarstores.com/" />
+  
+  <!-- SEO Open Graph & Twitter Cards -->
+  <meta property="og:title" content="Official Hellstar Stores | Premium Streetwear Hoodies, Shirts & Tracksuits">
+  <meta property="og:description" content="Shop authentic Hellstar streetwear including the legendary Hellstar Hoodie, graphic shirts, tracksuits, and pants. Enjoy worldwide shipping and premium quality cotton drops.">
+  <meta property="og:url" content="https://hellstarstores.com/">
+  <meta property="og:type" content="website">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Official Hellstar Stores | Premium Streetwear Hoodies, Shirts & Tracksuits">
+  <meta name="twitter:description" content="Shop authentic Hellstar streetwear including the legendary Hellstar Hoodie, graphic shirts, tracksuits, and pants. Enjoy worldwide shipping and premium quality cotton drops.">
+
+  <!-- Google Fonts for Streetwear Aesthetics -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700;800&family=Space+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <!-- Tailwind CSS Play CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            brandBlack: '#0a0a0a',
+            brandCharcoal: '#141414',
+            brandRed: '#ff2a2a',
+            brandWhite: '#ffffff',
+          },
+          fontFamily: {
+            sans: ['Outfit', 'sans-serif'],
+            display: ['Space Grotesk', 'sans-serif'],
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Scrollbar & Infinite Marquee CSS -->
+  <style>
+    /* Custom Scrollbar */
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #0a0a0a;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: #ff2a2a;
+      border-radius: 4px;
+    }
+    ::-webkit-scrollbar-thumb:hover {
+      background: #d11d1d;
+    }
+    
+    /* Smooth height accordion transitions */
+    .faq-content {
+      transition: max-height 0.3s cubic-bezier(0, 1, 0, 1);
+    }
+    .faq-content.expanded {
+      max-height: 500px;
+      transition: max-height 0.3s cubic-bezier(0.9, 0, 0.8, 0.2);
+    }
+
+    /* Infinite Marquee Animation */
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-50%); }
+    }
+    .animate-marquee {
+      display: flex;
+      width: max-content;
+      animation: marquee 20s linear infinite;
+    }
+  </style>
+
+  <!-- Structured Data Schema for SEO -->
+  <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "Hellstar Stores",
+      "url": "https://hellstarstores.com/",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://hellstarstores.com/?s={search_term_string}",
+        "query-input": "required name=search_term_string"
+      }
+    }
+  </script>
+</head>
+<body class="bg-brandBlack text-white font-sans overflow-x-hidden selection:bg-brandRed selection:text-white">
+
+  <!-- 1. ANNOUNCEMENT BAR (RUNNING MARQUEE) -->
+  <div class="w-full bg-brandRed text-white py-2.5 overflow-hidden border-b border-black/20 font-display font-bold text-xs uppercase tracking-wider relative z-50 select-none">
+    <div class="animate-marquee whitespace-nowrap flex items-center gap-8">
+      <span>🔥 NEW DROPS AVAILABLE NOW – AUTHENTIC STREETWEAR – WORLDWIDE SHIPPING 🌍</span>
+      <span>🔥 NEW DROPS AVAILABLE NOW – AUTHENTIC STREETWEAR – WORLDWIDE SHIPPING 🌍</span>
+      <span>🔥 NEW DROPS AVAILABLE NOW – AUTHENTIC STREETWEAR – WORLDWIDE SHIPPING 🌍</span>
+      <span>🔥 NEW DROPS AVAILABLE NOW – AUTHENTIC STREETWEAR – WORLDWIDE SHIPPING 🌍</span>
+    </div>
+  </div>
+
+  <!-- 2. STICKY HEADER -->
+  <header class="sticky top-0 z-50 bg-brandBlack/95 backdrop-blur-md border-b border-white/5 px-4 sm:px-6 lg:px-12 py-4 flex items-center justify-between transition-all duration-300">
+    <div class="flex items-center">
+      <!-- Brand Logo Keyword Link -->
+      <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-xl sm:text-2xl font-display font-extrabold tracking-tighter text-white hover:text-brandRed transition-colors duration-200">
+        HELLSTAR STORES
+      </a>
+    </div>
+    
+    <!-- Navigation Links -->
+    <nav class="hidden md:flex items-center gap-8 font-display text-xs uppercase tracking-widest font-bold">
+      <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200 text-white/95">Home</a>
+      <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200 text-white/60">Shop</a>
+      <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200 text-white/60">About</a>
+      <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200 text-white/60">Blog</a>
+      <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200 text-white/60">Contact</a>
+    </nav>
+
+    <!-- Header Actions (SVG Only) -->
+    <div class="flex items-center gap-4 sm:gap-6">
+      <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-white hover:text-brandRed transition-colors duration-200" aria-label="Search">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z"></path>
+        </svg>
+      </a>
+      <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-white hover:text-brandRed transition-colors duration-200 relative" aria-label="Cart">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z"></path>
+        </svg>
+        <span class="absolute -top-2 -right-2 bg-brandRed text-[10px] font-bold text-white w-4.5 h-4.5 rounded-full flex items-center justify-center font-display border border-brandBlack">0</span>
+      </a>
+    </div>
+  </header>
+
+  <!-- 3. TYPOGRAPHY-DRIVEN HERO SECTION -->
+  <section class="relative min-h-[70vh] flex flex-col justify-center px-4 sm:px-6 lg:px-12 py-16 md:py-24 border-b border-white/5 overflow-hidden">
+    <!-- Grid Overlay Decoration (Pure CSS, No Image) -->
+    <div class="absolute inset-0 bg-[linear-gradient(to_right,#141414_1px,transparent_1px),linear-gradient(to_bottom,#141414_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_100%)] opacity-30 pointer-events-none"></div>
+
+    <div class="relative z-10 max-w-5xl mx-auto text-left lg:text-center flex flex-col items-start lg:items-center">
+      <h1 class="text-4xl sm:text-6xl md:text-8xl font-display font-extrabold uppercase tracking-tight leading-[0.95] text-white">
+        <!-- Brand Keyword Link contextually mapped -->
+        <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">HELLSTAR</a>: BOLD STREETWEAR THAT <span class="text-brandRed block lg:inline">REFUSES TO SIT QUIETLY.</span>
+      </h1>
+      
+      <p class="mt-6 sm:mt-8 text-base sm:text-lg md:text-xl text-white/70 max-w-2xl leading-relaxed">
+        Engineered for the vanguard. Our premium heavyweight fabrics meet aggressive silhouettes to define the next era of high-end streetwear. No compromises. No apologies.
+      </p>
+
+      <div class="mt-8 sm:mt-12 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
+        <!-- CTA 1 in Solid Crimson Red -->
+        <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="bg-brandRed hover:bg-brandRed/90 text-white font-display font-extrabold text-sm uppercase tracking-widest px-8 py-4 text-center border-2 border-brandRed hover:border-brandRed/90 transition-all duration-300">
+          Shop Latest Drops
+        </a>
+        <!-- CTA 2 in Outline/Transparent styling -->
+        <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="bg-transparent hover:bg-white hover:text-brandBlack text-white font-display font-extrabold text-sm uppercase tracking-widest px-8 py-4 text-center border-2 border-white transition-all duration-300">
+          Explore Collections
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. 5-COLUMN CORE CATEGORIES GRID -->
+  <section class="px-4 sm:px-6 lg:px-12 py-16 sm:py-24 border-b border-white/5">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex items-end justify-between mb-10 sm:mb-12">
+        <div>
+          <h2 class="text-2xl sm:text-4xl font-display font-extrabold uppercase tracking-tight text-white">
+            The Inventory
+          </h2>
+          <div class="h-1 w-12 bg-brandRed mt-2"></div>
+        </div>
+        <span class="font-display text-[10px] sm:text-xs uppercase tracking-widest text-white/50 font-bold flex items-center gap-2 select-none">
+          Scroll To Explore
+          <svg class="w-4 h-4 text-brandRed animate-pulse" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" d="M17 8l4 4m0 0l-4 4m4-4H3"></path>
+          </svg>
+        </span>
+      </div>
+
+      <!-- Categories 5-Column Grid -->
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+        
+        <!-- Category Card 1: Hoodie -->
+        <a href="https://hellstarstores.com/product-category/hellstar-hoodie/" target="_blank" rel="noopener" class="group bg-brandCharcoal hover:bg-brandCharcoal/80 border border-white/5 hover:border-brandRed/30 px-6 py-12 flex flex-col items-center justify-between text-center transition-all duration-300 aspect-[3/4]">
+          <div class="w-full flex items-center justify-center flex-grow">
+            <!-- Inline SVG Hoodie outline vector -->
+            <svg class="w-16 h-16 text-brandRed group-hover:scale-110 transition-transform duration-300" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 18C22 10 26 6 32 6C38 6 42 10 42 18" />
+              <path d="M12 28L18 20H46L52 28L48 54H16L12 28Z" />
+              <path d="M12 28L4 42L8 44L16 32" />
+              <path d="M52 28L60 42L56 44L48 32" />
+              <path d="M22 42H42L38 50H26L22 42Z" />
+              <path d="M28 20V26" />
+              <path d="M36 20V26" />
+            </svg>
+          </div>
+          <div>
+            <!-- Hoodie Keyword Anchor inside card text -->
+            <span class="block font-display font-bold text-sm uppercase tracking-wider text-white group-hover:text-brandRed transition-colors duration-200">
+              Hellstar Hoodie
+            </span>
+            <span class="block text-brandRed font-bold text-xs mt-2">$149.99</span>
+          </div>
+        </a>
+
+        <!-- Category Card 2: Shirt -->
+        <a href="https://hellstarstores.com/product-category/hellstar-shirt/" target="_blank" rel="noopener" class="group bg-brandCharcoal hover:bg-brandCharcoal/80 border border-white/5 hover:border-brandRed/30 px-6 py-12 flex flex-col items-center justify-between text-center transition-all duration-300 aspect-[3/4]">
+          <div class="w-full flex items-center justify-center flex-grow">
+            <!-- Inline SVG Shirt outline vector -->
+            <svg class="w-16 h-16 text-brandRed group-hover:scale-110 transition-transform duration-300" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 10C28 13 36 13 40 10" />
+              <path d="M24 10L10 14V26L18 25V58H46V25L54 26V14L40 10" />
+            </svg>
+          </div>
+          <div>
+            <!-- Shirt Keyword Anchor inside card text -->
+            <span class="block font-display font-bold text-sm uppercase tracking-wider text-white group-hover:text-brandRed transition-colors duration-200">
+              Hellstar Shirt
+            </span>
+            <span class="block text-brandRed font-bold text-xs mt-2">$159.99</span>
+          </div>
+        </a>
+
+        <!-- Category Card 3: Tracksuit -->
+        <a href="https://hellstarstores.com/product-category/hellstar-tracksuit/" target="_blank" rel="noopener" class="group bg-brandCharcoal hover:bg-brandCharcoal/80 border border-white/5 hover:border-brandRed/30 px-6 py-12 flex flex-col items-center justify-between text-center transition-all duration-300 aspect-[3/4]">
+          <div class="w-full flex items-center justify-center flex-grow">
+            <!-- Inline SVG Tracksuit outline vector -->
+            <svg class="w-16 h-16 text-brandRed group-hover:scale-110 transition-transform duration-300" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 14V8H40V14" />
+              <path d="M32 8V58" />
+              <path d="M14 26L18 14H46L50 26L46 58H18L14 26Z" />
+              <path d="M14 26L4 38L8 41L16 28" />
+              <path d="M50 26L60 38L56 41L48 28" />
+              <path d="M9 25L4 31" />
+              <path d="M55 25L60 31" />
+            </svg>
+          </div>
+          <div>
+            <!-- Tracksuit Keyword Anchor inside card text -->
+            <span class="block font-display font-bold text-sm uppercase tracking-wider text-white group-hover:text-brandRed transition-colors duration-200">
+              Hellstar Tracksuit
+            </span>
+            <span class="block text-brandRed font-bold text-xs mt-2">$346.65</span>
+          </div>
+        </a>
+
+        <!-- Category Card 4: Long Sleeve (Mapped to main store with Brand Keyword) -->
+        <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="group bg-brandCharcoal hover:bg-brandCharcoal/80 border border-white/5 hover:border-brandRed/30 px-6 py-12 flex flex-col items-center justify-between text-center transition-all duration-300 aspect-[3/4]">
+          <div class="w-full flex items-center justify-center flex-grow">
+            <!-- Inline SVG Long Sleeve outline vector -->
+            <svg class="w-16 h-16 text-brandRed group-hover:scale-110 transition-transform duration-300" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M24 12C28 15 36 15 40 12" />
+              <path d="M24 12L16 16L18 56H46L48 16L40 12" />
+              <path d="M16 16L6 44L10 47L18 22" />
+              <path d="M48 16L58 44L54 47L46 22" />
+            </svg>
+          </div>
+          <div>
+            <!-- Brand keyword link contextual usage inside Category item -->
+            <span class="block font-display font-bold text-sm uppercase tracking-wider text-white group-hover:text-brandRed transition-colors duration-200">
+              Hellstar Long Sleeve
+            </span>
+            <span class="block text-brandRed font-bold text-xs mt-2">$179.99</span>
+          </div>
+        </a>
+
+        <!-- Category Card 5: Pants -->
+        <a href="https://hellstarstores.com/product-category/hellstar-pants/" target="_blank" rel="noopener" class="group bg-brandCharcoal hover:bg-brandCharcoal/80 border border-white/5 hover:border-brandRed/30 px-6 py-12 flex flex-col items-center justify-between text-center transition-all duration-300 aspect-[3/4]">
+          <div class="w-full flex items-center justify-center flex-grow">
+            <!-- Inline SVG Pants outline vector -->
+            <svg class="w-16 h-16 text-brandRed group-hover:scale-110 transition-transform duration-300" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 10H46" stroke-width="3" />
+              <path d="M18 10L14 36L20 56H28L32 30L36 56H44L50 36L46 10Z" />
+              <path d="M22 18V24" />
+              <path d="M42 18V24" />
+              <path d="M30 10V16" />
+              <path d="M34 10V16" />
+            </svg>
+          </div>
+          <div>
+            <!-- Pants Keyword Anchor inside card text -->
+            <span class="block font-display font-bold text-sm uppercase tracking-wider text-white group-hover:text-brandRed transition-colors duration-200">
+              Hellstar Pants
+            </span>
+            <span class="block text-brandRed font-bold text-xs mt-2">$120.00</span>
+          </div>
+        </a>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. 4-COLUMN KEY FEATURES & TRUST ROW -->
+  <section class="bg-brandCharcoal/40 border-b border-white/5 py-12 px-4 sm:px-6 lg:px-12 select-none">
+    <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-8">
+      
+      <!-- Feature 1: Premium Quality -->
+      <div class="flex flex-col items-center text-center">
+        <svg class="w-8 h-8 text-brandRed mb-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-.806 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946.806 3.42 3.42 0 013.138 3.138 3.42 3.42 0 00.806 1.946 3.42 3.42 0 010 4.438 3.42 3.42 0 00-.806 1.946 3.42 3.42 0 01-3.138 3.138 3.42 3.42 0 00-1.946.806 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-.806 3.42 3.42 0 01-3.138-3.138 3.42 3.42 0 00-.806-1.946 3.42 3.42 0 010-4.438 3.42 3.42 0 00.806-1.946 3.42 3.42 0 013.138-3.138z"></path>
+        </svg>
+        <span class="block font-display font-bold text-xs uppercase tracking-widest text-white">Premium Quality</span>
+        <span class="block text-[10px] text-white/50 uppercase tracking-wider mt-1">Heavyweight Fabrics</span>
+      </div>
+
+      <!-- Feature 2: Global Shipping -->
+      <div class="flex flex-col items-center text-center">
+        <svg class="w-8 h-8 text-brandRed mb-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M3.055 11H5a2 2 0 012 2v1a2 2 0 002 2 2 2 0 012 2v2.945M8 3.935V5.5A2.5 2.5 0 0010.5 8h.5a2 2 0 012 2 2 2 0 002 2h2.945M11.028 13.77A4.998 4.998 0 0011 15v4m0 0l-3-3m3 3l3-3M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+        </svg>
+        <span class="block font-display font-bold text-xs uppercase tracking-widest text-white">Global Shipping</span>
+        <span class="block text-[10px] text-white/50 uppercase tracking-wider mt-1">Fast Worldwide Logistics</span>
+      </div>
+
+      <!-- Feature 3: Easy Returns -->
+      <div class="flex flex-col items-center text-center">
+        <svg class="w-8 h-8 text-brandRed mb-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0019 16V8a1 1 0 00-1.6-.8l-5.334 4zM4.066 11.2a1 1 0 000 1.6l5.334 4A1 1 0 0011 16V8a1 1 0 00-1.6-.8l-5.334 4z"></path>
+        </svg>
+        <span class="block font-display font-bold text-xs uppercase tracking-widest text-white">Easy Returns</span>
+        <span class="block text-[10px] text-white/50 uppercase tracking-wider mt-1">30-Day Policy</span>
+      </div>
+
+      <!-- Feature 4: Secure Payment -->
+      <div class="flex flex-col items-center text-center">
+        <svg class="w-8 h-8 text-brandRed mb-3" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z"></path>
+        </svg>
+        <span class="block font-display font-bold text-xs uppercase tracking-widest text-white">Secure Payment</span>
+        <span class="block text-[10px] text-white/50 uppercase tracking-wider mt-1">AES-256 Encryption</span>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 6. EDITORIAL SEO CONTENT SECTION (DEEP CONTENT STRUCTURE) -->
+  <section class="px-4 sm:px-6 lg:px-12 py-16 sm:py-24 border-b border-white/5">
+    <div class="max-w-7xl mx-auto space-y-16 sm:space-y-24">
+      
+      <!-- H2 Row 1: Brand Introduction with Flame Graphics -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <h2 class="text-3xl sm:text-5xl font-display font-extrabold uppercase tracking-tight text-white leading-tight">
+            The Rise of 
+            <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-brandRed hover:underline transition-all duration-200">Hellstar</a>: 
+            Redefining Modern Streetwear Culture
+          </h2>
+          <div class="h-1 w-20 bg-brandRed"></div>
+          
+          <!-- Optimized contextual paragraph incorporating exact link-mappings -->
+          <p class="text-white/70 text-base sm:text-lg leading-relaxed">
+            The rise of high-end capsule streetwear has been dominated by one name: 
+            <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar</a>. 
+            Known for its graphic-heavy, distressed aesthetic and rebellious mindset, this label has captured the imagination of the vanguard. 
+            When shopping for these limited collections, it is critical to buy only from authorized channels like the 
+            <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Official</a> 
+            platform. Doing so guarantees that you receive authentic pieces direct from the certified inventory of 
+            <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Stores</a>, 
+            protecting you against high-quality replicas circulating on secondary marketplace sites.
+          </p>
+          <p class="text-white/70 text-sm leading-relaxed">
+            By combining high-concept graphics with luxury-tier construction techniques, the brand has carved a distinct path that merges skate culture, motorpunk fashion, and modern metalhead iconography into everyday wardrobes.
+          </p>
+        </div>
+        
+        <!-- Premium Flame Vector SVG placeholder (No Image Rule) -->
+        <div class="lg:col-span-5 bg-brandCharcoal border border-white/5 p-8 flex items-center justify-center rounded-sm min-h-[300px]">
+          <svg class="w-48 h-48 text-brandRed/85 animate-pulse" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M50 5C50 5 70 30 70 50C70 65 60 78 50 95C40 78 30 65 30 50C30 30 50 5 50 5Z" stroke="currentColor" stroke-width="2" stroke-linejoin="round" />
+            <path d="M50 25C50 25 62 42 62 55C62 65 55 72 50 82C45 72 38 65 38 55C38 42 50 25 50 25Z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round" fill="currentColor" class="opacity-10" />
+            <path d="M50 45C50 45 56 55 56 62C56 68 52 72 50 78C48 72 44 68 44 62C44 55 50 45 50 45Z" fill="currentColor" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- H3 Row 2: Hoodies details (Left Vector, Right Text) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
+        <!-- Abstract Hoodie Blueprint Vector SVG (No Image Rule) -->
+        <div class="order-2 lg:order-1 lg:col-span-5 bg-brandCharcoal border border-white/5 p-8 flex items-center justify-center rounded-sm min-h-[300px]">
+          <div class="relative w-full h-full flex flex-col items-center">
+            <svg class="w-40 h-40 text-white/20" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="1" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="60" height="60" stroke-dasharray="2 2" stroke="currentColor" />
+              <path d="M32 2V62M2 32H62" stroke="currentColor" class="opacity-40" />
+              <path d="M22 18C22 10 26 6 32 6C38 6 42 10 42 18" stroke="#ff2a2a" stroke-width="2"/>
+              <path d="M12 28L18 20H46L52 28L48 54H16L12 28Z" stroke="#ff2a2a" stroke-width="2"/>
+              <path d="M22 42H42L38 50H26L22 42Z" stroke="#ff2a2a" stroke-width="2"/>
+            </svg>
+            <div class="absolute bottom-2 text-center">
+              <span class="text-[9px] uppercase tracking-widest text-brandRed font-bold">500GSM Custom Cut & Sew Pattern</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="order-1 lg:order-2 lg:col-span-7 space-y-6">
+          <h3 class="text-2xl sm:text-4xl font-display font-extrabold uppercase tracking-tight text-white leading-tight">
+            Why 
+            <a href="https://hellstarstores.com/product-category/hellstar-hoodie/" target="_blank" rel="noopener" class="text-brandRed hover:underline transition-all duration-200">Hellstar Hoodies</a> 
+            Hit Different
+          </h3>
+          <div class="h-1 w-20 bg-brandRed"></div>
+
+          <!-- Optimized contextual paragraph incorporating exact link-mappings -->
+          <p class="text-white/70 text-base sm:text-lg leading-relaxed">
+            At the heart of the brand's cult status lies the iconic 
+            <a href="https://hellstarstores.com/product-category/hellstar-hoodie/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Hoodie</a>. 
+            Streetwear enthusiasts prioritize these pieces because they aren't off-the-shelf blanks. 
+            Every 
+            <a href="https://hellstarstores.com/product-category/hellstar-hoodie/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Heavyweight Pullover</a> 
+            is constructed with custom-milled loopback French Terry cotton, creating a highly structural drape that sets it apart. 
+            Fans of the label specifically hunt for 
+            <a href="https://hellstarstores.com/product-category/hellstar-hoodie/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Hoodies</a> 
+            to experience the characteristic oversized, dropped-shoulder silhouette that layers beautifully and feels incredibly substantial on-body.
+          </p>
+
+          <ul class="space-y-3 font-display font-bold text-xs uppercase tracking-wider text-white">
+            <li class="flex items-center gap-3">
+              <span class="w-1.5 h-1.5 bg-brandRed"></span>
+              Oversized, Dropped-Shoulder Fit
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="w-1.5 h-1.5 bg-brandRed"></span>
+              High-Density Screen Printed Front Graphics
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="w-1.5 h-1.5 bg-brandRed"></span>
+              Double-Lined Hood with Signature Ribbed Trims
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- H3 Row 3: Shirts details (Right Vector, Left Text) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
+        <div class="lg:col-span-7 space-y-6">
+          <h3 class="text-2xl sm:text-4xl font-display font-extrabold uppercase tracking-tight text-white leading-tight">
+            Graphic Tees: The Heavyweight Foundation
+          </h3>
+          <div class="h-1 w-20 bg-brandRed"></div>
+
+          <!-- Optimized contextual paragraph incorporating exact link-mappings -->
+          <p class="text-white/70 text-base sm:text-lg leading-relaxed">
+            For warmer days or layered styles, a vintage-washed 
+            <a href="https://hellstarstores.com/product-category/hellstar-shirt/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Shirt</a> 
+            delivers the brand's bold energy in a lighter format. 
+            The curated catalog of 
+            <a href="https://hellstarstores.com/product-category/hellstar-shirt/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Shirts</a> 
+            showcases massive screen-printed designs, pre-distressed accents, and raw hems. 
+            Each and every 
+            <a href="https://hellstarstores.com/product-category/hellstar-shirt/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Graphic Cotton Tee</a> 
+            undergoes a custom garment-dyeing and enzyme-wash treatment. This breaks down the fibers just enough to yield a soft, vintage feel right out of the packaging.
+          </p>
+
+          <ul class="space-y-3 font-display font-bold text-xs uppercase tracking-wider text-white">
+            <li class="flex items-center gap-3">
+              <span class="w-1.5 h-1.5 bg-brandRed"></span>
+              100% Organic Cotton (280GSM Heavyweight)
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="w-1.5 h-1.5 bg-brandRed"></span>
+              Pre-Shrunk & Enzyme Washed For Silkiness
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="w-1.5 h-1.5 bg-brandRed"></span>
+              Boxy Streetwear Body Shape
+            </li>
+          </ul>
+        </div>
+
+        <!-- Abstract Star Graphic Vector SVG (No Image Rule) -->
+        <div class="lg:col-span-5 bg-brandCharcoal border border-white/5 p-8 flex items-center justify-center rounded-sm min-h-[300px]">
+          <svg class="w-44 h-44 text-brandRed/80 hover:rotate-12 transition-transform duration-500" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" fill="currentColor" class="opacity-5" />
+            <path d="M12 2L15.09 8.26L22 9.27L17 14.14L18.18 21.02L12 17.77L5.82 21.02L7 14.14L2 9.27L8.91 8.26L12 2Z" stroke="currentColor" stroke-linejoin="round" />
+            <!-- Inner Star outline -->
+            <path d="M12 6L13.85 9.76L18 10.37L15 13.29L15.71 17.42L12 15.47L8.29 17.42L9 13.29L6 10.37L10.15 9.76L12 6Z" stroke="currentColor" stroke-linejoin="round" />
+          </svg>
+        </div>
+      </div>
+
+      <!-- H3 Row 4: Tracksuits and Pants details (Left Vector, Right Text) -->
+      <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-16 items-center">
+        <!-- Abstract Tracksuit Set Graphic Vector SVG (No Image Rule) -->
+        <div class="order-2 lg:order-1 lg:col-span-5 bg-brandCharcoal border border-white/5 p-8 flex items-center justify-center rounded-sm min-h-[300px]">
+          <svg class="w-40 h-40 text-brandRed/85" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg">
+            <!-- Intersecting geometric streetwear blocks -->
+            <rect x="10" y="10" width="20" height="20" stroke-dasharray="1 1" />
+            <rect x="34" y="34" width="20" height="20" stroke-dasharray="1 1" />
+            <circle cx="32" cy="32" r="28" stroke-width="1" class="opacity-30" />
+            <path d="M12 12L52 52" stroke-width="1.5" />
+            <path d="M52 12L12 52" stroke-width="1.5" />
+          </svg>
+        </div>
+
+        <div class="order-1 lg:order-2 lg:col-span-7 space-y-6">
+          <h3 class="text-2xl sm:text-4xl font-display font-extrabold uppercase tracking-tight text-white leading-tight">
+            Coordinated Uniforms: Tracksuits & Streetwear Cargo
+          </h3>
+          <div class="h-1 w-20 bg-brandRed"></div>
+
+          <!-- Optimized contextual paragraph incorporating exact link-mappings -->
+          <p class="text-white/70 text-base sm:text-lg leading-relaxed">
+            If you want a unified streetwear statement, the matching 
+            <a href="https://hellstarstores.com/product-category/hellstar-tracksuit/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Tracksuit</a> 
+            stands out in any crowd. Offering coordinated aesthetics that emphasize athletic drape and punk branding, a modern 
+            <a href="https://hellstarstores.com/product-category/hellstar-tracksuit/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Streetwear Tracksuit</a> 
+            balances ultimate coziness with premium appeal. Complete your outfit by pairing track tops or graphic tees with custom 
+            <a href="https://hellstarstores.com/product-category/hellstar-pants/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Pants</a>. 
+            Designed with premium elastic cuffs, adjustable drawstring waistbands, and zippered utility pockets, these pants maintain the distinct silhouette needed to turn heads.
+          </p>
+
+          <ul class="space-y-3 font-display font-bold text-xs uppercase tracking-wider text-white">
+            <li class="flex items-center gap-3">
+              <span class="w-1.5 h-1.5 bg-brandRed"></span>
+              Matching Side Tape Panels & Piping Details
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="w-1.5 h-1.5 bg-brandRed"></span>
+              Embroidered Punk Logos & Screen Prints
+            </li>
+            <li class="flex items-center gap-3">
+              <span class="w-1.5 h-1.5 bg-brandRed"></span>
+              Ergonomic Zippered Pockets on Cargo Bottoms
+            </li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- 7. ACCORDION-STYLE FAQ SECTION -->
+  <section class="px-4 sm:px-6 lg:px-12 py-16 sm:py-24 bg-brandCharcoal/20 border-b border-white/5">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-12 sm:mb-16">
+        <h2 class="text-3xl sm:text-5xl font-display font-extrabold uppercase tracking-tight text-white">
+          Customer Support / FAQ
+        </h2>
+        <div class="h-1 w-16 bg-brandRed mx-auto mt-4"></div>
+      </div>
+
+      <!-- FAQ Accordions Container -->
+      <div class="space-y-4">
+        
+        <!-- Accordion Item 1: Sizing Guide -->
+        <div class="faq-accordion border border-white/5 bg-brandCharcoal/60 rounded-sm overflow-hidden transition-all duration-200">
+          <button class="faq-btn w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none" aria-expanded="false">
+            <span class="font-display font-extrabold text-sm sm:text-base uppercase tracking-wider text-white hover:text-brandRed transition-colors duration-200">
+              Sizing Guide
+            </span>
+            <!-- Chevron Down Icon -->
+            <svg class="faq-icon w-5 h-5 text-brandRed transform transition-transform duration-300 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-6 pb-6 text-sm sm:text-base text-white/70 border-t border-white/5 pt-4 leading-relaxed">
+              How do 
+              <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar</a> 
+              clothes fit? All garments, including our flagship 
+              <a href="https://hellstarstores.com/product-category/hellstar-hoodie/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Hoodie</a> 
+              cut-and-sew lines and our heavyweight 
+              <a href="https://hellstarstores.com/product-category/hellstar-shirt/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Shirts</a>, 
+              are designed with a signature relaxed, drop-shoulder streetwear fit. We recommend ordering your normal size to achieve the intended designer look, or sizing down if you prefer a standard fit.
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 2: Fabric & Care -->
+        <div class="faq-accordion border border-white/5 bg-brandCharcoal/60 rounded-sm overflow-hidden transition-all duration-200">
+          <button class="faq-btn w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none" aria-expanded="false">
+            <span class="font-display font-extrabold text-sm sm:text-base uppercase tracking-wider text-white hover:text-brandRed transition-colors duration-200">
+              Fabric & Care
+            </span>
+            <!-- Chevron Down Icon -->
+            <svg class="faq-icon w-5 h-5 text-brandRed transform transition-transform duration-300 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-6 pb-6 text-sm sm:text-base text-white/70 border-t border-white/5 pt-4 leading-relaxed">
+              What materials are used by 
+              <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Stores</a>? 
+              We use 100% custom-milled premium cotton fabrics across all apparel drops. 
+              Our 
+              <a href="https://hellstarstores.com/product-category/hellstar-hoodie/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Heavyweight Pullover</a> 
+              catalog features 500GSM custom French Terry, and every single 
+              <a href="https://hellstarstores.com/product-category/hellstar-shirt/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Graphic Cotton Tee</a> 
+              uses organic combed cotton. We advise machine washing garments inside out in cold water, with like colors. Avoid heat drying; always hang dry to maintain raw distress detailing and graphic screen print longevity.
+            </div>
+          </div>
+        </div>
+
+        <!-- Accordion Item 3: Shipping & Returns -->
+        <div class="faq-accordion border border-white/5 bg-brandCharcoal/60 rounded-sm overflow-hidden transition-all duration-200">
+          <button class="faq-btn w-full px-6 py-5 flex items-center justify-between text-left focus:outline-none" aria-expanded="false">
+            <span class="font-display font-extrabold text-sm sm:text-base uppercase tracking-wider text-white hover:text-brandRed transition-colors duration-200">
+              Shipping & Tracking
+            </span>
+            <!-- Chevron Down Icon -->
+            <svg class="faq-icon w-5 h-5 text-brandRed transform transition-transform duration-300 pointer-events-none" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"></path>
+            </svg>
+          </button>
+          <div class="faq-content max-h-0 overflow-hidden transition-all duration-300">
+            <div class="px-6 pb-6 text-sm sm:text-base text-white/70 border-t border-white/5 pt-4 leading-relaxed">
+              What are the delivery terms? We ship worldwide via DHL and FedEx Express services to ensure swift transit. Orders are processed at our fulfillment warehouse within 3-5 business days. Once your shipment leaves, we email you a tracking link to follow your package. If you are returning a 
+              <a href="https://hellstarstores.com/product-category/hellstar-tracksuit/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Tracksuit</a> 
+              or 
+              <a href="https://hellstarstores.com/product-category/hellstar-pants/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Pants</a> 
+              ordered directly from the 
+              <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Official</a> 
+              site, we accept returns within 30 days of delivery, provided tags are attached and the garment remains in its original unworn condition.
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- 8. STRUCTURED FOOTER -->
+  <footer class="bg-brandBlack border-t border-white/5 pt-16 pb-12 px-4 sm:px-6 lg:px-12">
+    <div class="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8 lg:gap-12 pb-12 border-b border-white/5">
+      
+      <!-- Footer About/Brand Statement -->
+      <div class="md:col-span-5 space-y-6">
+        <span class="block font-display font-extrabold text-lg uppercase tracking-wider text-white">
+          Hellstar Stores
+        </span>
+        <p class="text-white/60 text-sm leading-relaxed max-w-sm">
+          The definitive source for authentic Hellstar gear. Based in Los Angeles, shipping worldwide. 
+          We guarantee that all orders placed through the 
+          <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="text-brandRed font-bold hover:underline transition-all duration-200">Hellstar Official</a> 
+          web store represent genuine articles. 
+          Build your custom wardrobe with our hallmark heavyweight pullovers, classic graphic cotton tees, matching tracksuit coordinates, and custom-distressed pants.
+        </p>
+        
+        <!-- Social Icons (SVG Only, Mapped with Brand link) -->
+        <div class="flex items-center gap-4">
+          <!-- Instagram SVG -->
+          <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-brandCharcoal flex items-center justify-center text-white/70 hover:text-brandRed hover:bg-brandCharcoal/80 transition-all duration-200" aria-label="Instagram">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.051.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"></path>
+            </svg>
+          </a>
+          <!-- Twitter SVG -->
+          <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-brandCharcoal flex items-center justify-center text-white/70 hover:text-brandRed hover:bg-brandCharcoal/80 transition-all duration-200" aria-label="Twitter">
+            <svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.953 4.57a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.69 8.095 4.067 6.13 1.64 3.162a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.06a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.936 4.936 0 004.604 3.417 9.867 9.867 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.053 0 13.998-7.496 13.998-13.985 0-.21 0-.42-.015-.63A9.935 9.935 0 0024 4.59z"></path>
+            </svg>
+          </a>
+          <!-- Pinterest/Web SVG -->
+          <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="w-8 h-8 rounded-full bg-brandCharcoal flex items-center justify-center text-white/70 hover:text-brandRed hover:bg-brandCharcoal/80 transition-all duration-200" aria-label="Official Site">
+            <svg class="w-4 h-4" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M21 12a9 9 0 01-9 9m9-9a9 9 0 00-9-9m9 9H3m9 9a9 9 0 01-9-9m9 9c1.657 0 3-4.03 3-9s-1.343-9-3-9m0 18c-1.657 0-3-4.03-3-9s1.343-9 3-9m-9 9h18"></path>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Footer Navigation: Shop Column -->
+      <div class="md:col-span-2 space-y-4">
+        <span class="block font-display font-extrabold text-xs uppercase tracking-widest text-white">
+          Shop
+        </span>
+        <ul class="space-y-2 text-sm text-white/50 font-bold uppercase tracking-wider text-[11px]">
+          <li><a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">Shop All</a></li>
+          <li><a href="https://hellstarstores.com/product-category/hellstar-hoodie/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">Hoodies</a></li>
+          <li><a href="https://hellstarstores.com/product-category/hellstar-shirt/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">Shirts</a></li>
+          <li><a href="https://hellstarstores.com/product-category/hellstar-tracksuit/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">Tracksuits</a></li>
+          <li><a href="https://hellstarstores.com/product-category/hellstar-pants/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">Pants</a></li>
+        </ul>
+      </div>
+
+      <!-- Footer Navigation: Support Column -->
+      <div class="md:col-span-2 space-y-4">
+        <span class="block font-display font-extrabold text-xs uppercase tracking-widest text-white">
+          Support
+        </span>
+        <ul class="space-y-2 text-sm text-white/50 font-bold uppercase tracking-wider text-[11px]">
+          <li><a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">Shipping Policy</a></li>
+          <li><a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">Returns</a></li>
+          <li><a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">Contact</a></li>
+          <li><a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-200">FAQ</a></li>
+        </ul>
+      </div>
+
+      <!-- Footer Newsletter Box -->
+      <div class="md:col-span-3 space-y-4">
+        <span class="block font-display font-extrabold text-xs uppercase tracking-widest text-white">
+          Newsletter
+        </span>
+        <p class="text-white/60 text-xs leading-relaxed">
+          Join the inner circle for early access to drops.
+        </p>
+        
+        <!-- Newsletter Signup form mapping standard inputs -->
+        <form action="https://hellstarstores.com/" method="GET" target="_blank" class="space-y-2">
+          <input 
+            type="email" 
+            placeholder="EMAIL ADDRESS" 
+            required 
+            class="w-full bg-black/40 border border-white/10 hover:border-white/20 focus:border-brandRed focus:outline-none text-white px-4 py-3 text-xs uppercase tracking-widest font-bold placeholder-white/40"
+          >
+          <button 
+            type="submit" 
+            class="w-full bg-white hover:bg-brandRed hover:text-white text-brandBlack font-display font-extrabold text-xs uppercase tracking-widest py-3 transition-colors duration-300"
+          >
+            Subscribe
+          </button>
+        </form>
+      </div>
+
+    </div>
+
+    <!-- Copyright and SEO Footnotes -->
+    <div class="max-w-7xl mx-auto pt-8 flex flex-col sm:flex-row items-center justify-between text-xs text-white/40 gap-4">
+      <span>&copy; 2026 Hellstar Stores. All Rights Reserved.</span>
+      <div class="flex items-center gap-6">
+        <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-150">Privacy Policy</a>
+        <a href="https://hellstarstores.com/" target="_blank" rel="noopener" class="hover:text-brandRed transition-colors duration-150">Terms of Service</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Accordion Toggle Logic Script (Vanilla JS) -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      document.querySelectorAll('.faq-accordion').forEach(accordion => {
+        const button = accordion.querySelector('.faq-btn');
+        const content = accordion.querySelector('.faq-content');
+        const icon = accordion.querySelector('.faq-icon');
+
+        button.addEventListener('click', () => {
+          const isExpanded = button.getAttribute('aria-expanded') === 'true';
+
+          // Close all sibling accordions for premium clean interaction
+          document.querySelectorAll('.faq-accordion').forEach(item => {
+            const siblingButton = item.querySelector('.faq-btn');
+            const siblingContent = item.querySelector('.faq-content');
+            const siblingIcon = item.querySelector('.faq-icon');
+
+            siblingButton.setAttribute('aria-expanded', 'false');
+            siblingContent.classList.remove('expanded');
+            siblingContent.style.maxHeight = null;
+            siblingIcon.classList.remove('rotate-180');
+          });
+
+          // Toggle current accordion state
+          if (!isExpanded) {
+            button.setAttribute('aria-expanded', 'true');
+            content.classList.add('expanded');
+            content.style.maxHeight = content.scrollHeight + 'px';
+            icon.classList.add('rotate-180');
+          } else {
+            button.setAttribute('aria-expanded', 'false');
+            content.classList.remove('expanded');
+            content.style.maxHeight = null;
+            icon.classList.remove('rotate-180');
+          }
+        });
+      });
+    });
+  </script>
+</body>
+</html>
